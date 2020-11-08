@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F3F4"
+    tools:context="com.example.Admin.whowantstobemillionaire.Q2">
+
+    <LinearLayout
+        android:id="@+id/lLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/earnings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="earnings"
+            android:textColor="#00695C"
+            android:textSize="26dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="#000000" />
+
+        <TextView
+            android:id="@+id/q1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#AFB6E6"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="question"
+            android:textSize="26dp"
+            android:textStyle="italic" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#AFB6E6"
+            android:padding="50dp">
+
+            <RadioButton
+                android:id="@+id/A1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="one" />
+
+            <RadioButton
+                android:id="@+id/A2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="two" />
+
+            <RadioButton
+                android:id="@+id/A3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="three" />
+
+            <RadioButton
+                android:id="@+id/A4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="four" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/confirm"
+            android:layout_width="146dp"
+            android:layout_height="49dp"
+            android:layout_margin="10dp"
+            android:background="#0A51DF"
+            android:padding="10dp"
+            android:text="CONFIRM"
+            android:textColor="#FBF8F8"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/be_sure" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
